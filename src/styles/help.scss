@@ -1,0 +1,66 @@
+.job{
+  padding: 20px;
+  margin-top: 40px;
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  &__support{
+    display: flex;
+    padding: 25px;
+    background-color: rgb(255, 103, 103);
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 10px;
+    justify-content: space-between;
+    @media (min-width:500px) {
+      flex-direction: row;      
+    }
+  }
+  .description{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 13px;
+    border: 0;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .process{
+    background-color: rgba(235, 235, 235, 0.575);
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @media (min-width:650px) {
+      gap: 10px;
+      flex-direction: row;      
+    }
+  }
+  .icon{
+    font-size: 30px;
+    color: rgb(255, 85, 85);
+    margin-bottom: 10px;
+  }
+  .title{
+    margin:10px 0;
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @media (min-width:1050px) {
+      flex-direction: row;      
+    }
+  }
+}

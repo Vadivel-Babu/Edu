@@ -1,0 +1,31 @@
+.graduate{
+  padding: 20px;
+  margin-top: 40px;
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .title{
+    text-align: center;
+    @media (min-width:600px) {
+      font-size: 45px;      
+    }
+  }
+
+  .companies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .img{
+    width: 50px;
+    @media (min-width:550px) {
+      width: 100px;      
+    }
+  }
+}

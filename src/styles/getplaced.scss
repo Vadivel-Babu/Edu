@@ -1,0 +1,56 @@
+
+.getplaced{
+  padding:20px;
+  margin-top: 40px;
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    @media (min-width:700px) {
+      align-items: baseline;
+      flex-direction: row;      
+    }
+  }
+ 
+  .span{
+    color: rgb(255, 58, 58);
+    margin-left: 3px;
+  }
+  .description{
+    max-width: 400px;
+  }
+  .wrapper{
+    margin: 20px auto;
+    overflow: hidden;
+    max-width: 900px;
+  }
+  .carasouel{
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 10px;
+    animation: 20s slide infinite linear;
+  }
+  .country{
+    display: flex;
+    gap: 5px;
+    &__name{
+      font-weight: 600;
+      color: gray;
+    }
+  }
+  @keyframes slide {
+    from{
+      transform: translateX(0);
+    } 
+    to{
+      transform: translateX(-100%);
+    }   
+  }
+}

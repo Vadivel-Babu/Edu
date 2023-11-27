@@ -1,0 +1,27 @@
+.testimonial{
+  padding: 20px;
+  margin-top: 40px;
+  .container{
+    margin: 0 auto;
+    max-width:1200px;
+  }
+  .slider{
+    margin-top: 20px;
+  }
+  .slide{
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    cursor: grab;
+  }
+  .name{
+    margin: 10px 0;
+  }
+  .img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
